@@ -35,24 +35,24 @@ const demos = [
     color: 'bg-yellow-500'
   },
   {
-    title: 'Calculator',
-    description: 'A modern calculator with a clean interface',
+    title: 'Quiz Document Generator',
+    description: 'Generate quiz documents for students with questions and answers',
     icon: <Calculator className="w-6 h-6" />,
-    path: '/demo/calculator',
+    path: '/quizdoc',
     color: 'bg-purple-500'
   },
   {
-    title: 'Color Picker',
-    description: 'Generate and explore beautiful color palettes',
+    title: 'Quiz JSON Generator',
+    description: 'Generate quiz JSON files for use in web applications',
     icon: <Palette className="w-6 h-6" />,
-    path: '/demo/color-picker',
+    path: '/quizmanual',
     color: 'bg-pink-500'
   },
   {
-    title: 'Timer',
-    description: 'A countdown timer with customizable intervals',
+    title: 'PPT Quiz Generator',
+    description: 'Generate quiz PowerPoint slides for interactive quizzes',
     icon: <Clock className="w-6 h-6" />,
-    path: '/demo/timer',
+    path: '/pptquiz',
     color: 'bg-indigo-500'
   },
   {
@@ -92,8 +92,8 @@ function LandingPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold mb-4 text-gray-800">React Demo Gallery</h1>
-          <p className="text-xl text-gray-600">Explore our collection of interactive React demos</p>
+          <h1 className="text-5xl font-bold mb-4 text-gray-800">Ace your exams with Zortus </h1>
+          <p className="text-xl text-gray-600">Checkout our wide range of Services</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
