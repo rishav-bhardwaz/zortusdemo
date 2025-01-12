@@ -3,13 +3,13 @@ import {
   Calculator,
   Clock,
   CloudSun,
-  Edit3,
+//  Edit3,
   Layout,
-  Music,
+//  Music,
   Palette,
-  PenTool,
+//  PenTool,
   CheckSquare,
-  HelpCircle
+  // HelpCircle
 } from 'lucide-react';
 
 const demos = [
@@ -55,34 +55,34 @@ const demos = [
     path: '/pptquiz',
     color: 'bg-indigo-500'
   },
-  {
-    title: 'Quiz App',
-    description: 'Test your knowledge with this interactive quiz',
-    icon: <HelpCircle className="w-6 h-6" />,
-    path: '/demo/quiz',
-    color: 'bg-red-500'
-  },
-  {
-    title: 'Notes App',
-    description: 'Take and organize notes with markdown support',
-    icon: <Edit3 className="w-6 h-6" />,
-    path: '/demo/notes',
-    color: 'bg-teal-500'
-  },
-  {
-    title: 'Drawing App',
-    description: 'Express your creativity with this drawing tool',
-    icon: <PenTool className="w-6 h-6" />,
-    path: '/demo/drawing',
-    color: 'bg-orange-500'
-  },
-  {
-    title: 'Music Player',
-    description: 'A beautiful music player with playlist support',
-    icon: <Music className="w-6 h-6" />,
-    path: '/demo/music-player',
-    color: 'bg-cyan-500'
-  }
+  // {
+  //   title: 'Quiz App',
+  //   description: 'Test your knowledge with this interactive quiz',
+  //   icon: <HelpCircle className="w-6 h-6" />,
+  //   path: '/demo/quiz',
+  //   color: 'bg-red-500'
+  // },
+  // {
+  //   title: 'Notes App',
+  //   description: 'Take and organize notes with markdown support',
+  //   icon: <Edit3 className="w-6 h-6" />,
+  //   path: '/demo/notes',
+  //   color: 'bg-teal-500'
+  // },
+  // {
+  //   title: 'Drawing App',
+  //   description: 'Express your creativity with this drawing tool',
+  //   icon: <PenTool className="w-6 h-6" />,
+  //   path: '/demo/drawing',
+  //   color: 'bg-orange-500'
+  // },
+  // {
+  //   title: 'Music Player',
+  //   description: 'A beautiful music player with playlist support',
+  //   icon: <Music className="w-6 h-6" />,
+  //   path: '/demo/music-player',
+  //   color: 'bg-cyan-500'
+  // }
 ];
 
 function LandingPage() {
