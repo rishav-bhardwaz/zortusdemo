@@ -6,6 +6,9 @@ import GeneratePPTFromPDF from './pages/Pptpdf';
 import GenerateQuizDocument from './pages/Quizdoc';
 import GenerateQuizJSON from './pages/Quizmanual';
 import GenerateQuizPPT from './pages/Pptquiz';
+import GenerateQuizDOCX from './pages/Docx';
+import GenerateRoadmap from './pages/Roadmap';
+import Weight from './pages/Weight';
 function App() {
   return (
     <Router>
@@ -17,6 +20,9 @@ function App() {
         <Route path="/quizdoc" element={<GenerateQuizDocument />} />
         <Route path="/quizmanual" element={<GenerateQuizJSON />} />
         <Route path="/pptquiz" element={<GenerateQuizPPT />} />
+        <Route path="/docx" element={<GenerateQuizDOCX />} />
+        <Route path="/roadmap" element={<GenerateRoadmap />} />
+        <Route path="/weight" element={<Weight />} />
       </Routes>
     </Router>
   );
